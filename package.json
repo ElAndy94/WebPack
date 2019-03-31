@@ -4,8 +4,8 @@
   "private": true,
   "description": "Webpack",
   "main": "index.js",
-  "scripts" : {
-    "start" : "webpack"
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
   },
   "repository": "https://github.com/ElAndy94/WebPack.git",
   "author": "Andrew <andrewpeliza@hotmail.com>",
