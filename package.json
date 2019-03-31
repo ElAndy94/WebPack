@@ -1,0 +1,17 @@
+{
+  "name": "Webpack-training",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Webpack",
+  "main": "index.js",
+  "scripts" : {
+    "start" : "webpack"
+  },
+  "repository": "https://github.com/ElAndy94/WebPack.git",
+  "author": "Andrew <andrewpeliza@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
