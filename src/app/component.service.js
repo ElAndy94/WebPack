@@ -1,9 +1,9 @@
-class ComponetService {
+export class ComponetService {
   constructor() {
-    const numberOneInput = document.getElementById('numberOne');
-    const numberTwoInput = document.getElementById('numberTwo');
-    const addValuesButton = document.getElementById('addValues');
-    const resultDiv = document.getElementById('result');
+    this.numberOneInput = document.getElementById('numberOne');
+    this.numberTwoInput = document.getElementById('numberTwo');
+    this.addValuesButton = document.getElementById('addValues');
+    this.resultDiv = document.getElementById('result');
   }
 
   getInputs() {
