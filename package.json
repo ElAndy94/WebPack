@@ -5,7 +5,8 @@
   "description": "Webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js"
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": "https://github.com/ElAndy94/WebPack.git",
   "author": "Andrew <andrewpeliza@hotmail.com>",
@@ -21,6 +22,8 @@
     "bootstrap": "^4.3.1",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
   }
 }
