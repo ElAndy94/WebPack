@@ -7,7 +7,7 @@ module.exports = merge(common, {
   //   devtool: 'none',
   //   entry: './src/index.js',
   output: {
-    filename: 'main.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
   }
   //   plugins: [
